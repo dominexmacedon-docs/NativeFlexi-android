@@ -5,7 +5,7 @@ on:
     inputs:
       build_type:
         description: Android build to produce
-        required: false
+        required: true
         default: all
         type: choice
         options:
